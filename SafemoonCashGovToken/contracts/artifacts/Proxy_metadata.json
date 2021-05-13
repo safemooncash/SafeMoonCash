@@ -1,0 +1,55 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"details": "This abstract contract provides a fallback function that delegates all calls to another contract using the EVM instruction `delegatecall`. We refer to the second contract as the _implementation_ behind the proxy, and it has to be specified by overriding the virtual {_implementation} function.  Additionally, delegation to the implementation can be triggered manually through the {_fallback} function, or to a different contract through the {_delegate} function.  The success and return data of the delegated call will be returned back to the caller of the proxy.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SafemoonCashGovToken.sol": "Proxy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SafemoonCashGovToken.sol": {
+			"keccak256": "0xc05388ea0b8a3c46ac70725c0664c27daacc06f4b42fd383802b10f327f92e5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74ab1096284f2e1433b71a8805f16f8552b4b1d7394a9ffe083a7d9931d4b15d",
+				"dweb:/ipfs/QmeummY6UMY3r5KwbGxoSzoZf9mnDv5D1b5Rj8DTp8hyyJ"
+			]
+		}
+	},
+	"version": 1
+}

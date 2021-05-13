@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SafemoonCashGovToken.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SafemoonCashGovToken.sol": {
+			"keccak256": "0xc05388ea0b8a3c46ac70725c0664c27daacc06f4b42fd383802b10f327f92e5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74ab1096284f2e1433b71a8805f16f8552b4b1d7394a9ffe083a7d9931d4b15d",
+				"dweb:/ipfs/QmeummY6UMY3r5KwbGxoSzoZf9mnDv5D1b5Rj8DTp8hyyJ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getPriorVotes",
+				"outputs": [
+					{
+						"internalType": "uint96",
+						"name": "",
+						"type": "uint96"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmCGovMissionControl.sol": "SmCGovInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmCGovMissionControl.sol": {
+			"keccak256": "0x3ee39e1f2020ed03b648b99e1e6c7217d4874e598b1edaa599e0f422a591f3bb",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://e6d49a933ccf02315f4103e706144d1df18782436f68a944101271809cffcf06",
+				"dweb:/ipfs/QmamR8yfc4CaGgWHAn1EPihZHwYxSghczkMDvTCkzgDEzj"
+			]
+		}
+	},
+	"version": 1
+}
